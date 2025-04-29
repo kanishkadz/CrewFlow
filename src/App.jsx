@@ -1,4 +1,5 @@
-import EmpPage from "./pages/Admin"
+import LoginForm from "./components/LoginForm"
+import Admin from "./pages/Admin"
 import Employee from "./pages/Employee"
 import LoginPage from "./pages/LoginPage"
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <div>
         {/* <LoginPage /> */}
-        {/* <EmpPage /> */}
+        {/* <Admin /> */}
         <Employee />
       </div>
     </>

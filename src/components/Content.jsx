@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import EmployeeList from './EmployeeList';
 
 const Content = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  
   const [employees, setEmployees] = useState([
     { id: 1, name: 'Employee 1', department: 'Frontend Developer' },
     { id: 2, name: 'Employee 2', department: 'Backend Developer' },
@@ -14,12 +11,13 @@ const Content = () => {
   ]);
 
   return (
-    <div className="flex-1 bg-[#f8faed] p-10">
+    <div className="flex-1 bg-[##fbfff1] p-10">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-10">Employees under you</h1>
+        <h1 className="text-5xl font-bold mb-15">Employees under you</h1>
         
-        <div className="bg-gray-100 p-6 rounded-lg">
+        <div className="bg-[#f2f2f2] p-6 rounded-lg">
           <EmployeeList employees={employees} />
+          <p className='text-right mt-5'>Page 1 of 1</p>
         </div>
       </div>
     </div>

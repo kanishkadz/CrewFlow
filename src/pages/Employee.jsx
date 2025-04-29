@@ -1,12 +1,13 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 import TaskList from '../components/TaskList'
+import ContentEmp from '../components/ContentEmp'
 
 const Employee = () => {
   return (
-    <div>
+    <div className='flex min-h-screen'>
         <Sidebar />
-        <TaskList />
+        <ContentEmp />
     </div>
   )
 }
