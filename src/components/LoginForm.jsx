@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 const LoginForm = () => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('Login details:', {email, password});
+    }
+
+    
   return (
     <div className='w-full md:w-3/5 bg-gray-50p-8 md:p-12 lg:p-24 flex items-center justify-center'>
         <div className='w-full max-w-md'>
