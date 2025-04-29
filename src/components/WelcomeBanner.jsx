@@ -1,5 +1,6 @@
 import { CheckSquare, Users } from 'lucide-react'
 import React from 'react'
+import Illustrations from './Illustrations'
 
 const WelcomeBanner = () => {
     return (
@@ -11,14 +12,14 @@ const WelcomeBanner = () => {
                 </div>
                 <h1 className='text-4xl sm:text-5xl font-bold mt-12 mb-4'>
                     Welcome to, <br />
-                    <span className='text-7xl sm:text-9xl font-bold'>CrewFlow</span>
+                    <span className='text-5xl sm:text-7xl font-bold'>CrewFlow</span>
                 </h1>
                 <p className='text-xl font-medium opacity-90'>
                     Managing People, Made Simple
                 </p>
             </div>
             <div className="relative h-64 md:h-96 z-10 mt-8">
-                <TaskIllustration />
+                <Illustrations />
             </div>
 
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-white opacity-10 rounded-tr-full"></div>
