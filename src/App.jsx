@@ -1,7 +1,11 @@
+import LoginPage from "./pages/LoginPage"
+
 function App() {
   return (
     <>
-      <div>Kanishka Anand</div>
+      <div>
+        <LoginPage />
+      </div>
     </>
   )
 }
