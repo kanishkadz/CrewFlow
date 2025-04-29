@@ -11,7 +11,7 @@ const Content = () => {
   ]);
 
   return (
-    <div className="flex-1 bg-[##fbfff1] p-10">
+    <div className="flex-1 bg-[#fbfff1] p-10">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl font-bold mb-15 mt-10">Employees under you</h1>
         <div className="bg-[#f2f2f2] p-6 rounded-lg">

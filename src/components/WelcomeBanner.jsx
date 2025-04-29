@@ -1,5 +1,4 @@
 import React from 'react'
-import Illustrations from './Illustrations'
 
 const WelcomeBanner = () => {
     return (
