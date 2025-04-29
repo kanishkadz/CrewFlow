@@ -7,7 +7,6 @@ const EmployeeCard = ({ employee }) => {
       <div className="w-1/2 pl-4">
         <h3 className="text-lg font-medium">{employee.name}</h3>
       </div>
-      
       <div className="w-1/2 flex justify-between items-center">
         <span className="text-lg">{employee.department}</span>
           <button className="text-red-600 hover:text-red-800 transition-colors">

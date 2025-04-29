@@ -13,9 +13,7 @@ const WelcomeBanner = () => {
                     Managing People, Made Simple
                 </p>
             </div>
-
             <img src='Illustrations.png' />
-
             <div className="absolute bottom-0 left-0 w-24 h-24 bg-white opacity-10 rounded-tr-full"></div>
             <div className="absolute bottom-12 left-12 w-16 h-16 bg-white opacity-5 rounded-full"></div>
         </div>
